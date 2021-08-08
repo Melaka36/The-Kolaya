@@ -1,0 +1,368 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3rem;    
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.main-header{
+    color: #80b367;
+    margin: 50px auto;
+    text-align: center;
+    letter-spacing: 0.335em;
+    
+}
+
+hr {
+    border: none;
+    width: 80%;
+    margin: 50px auto;
+    border: 4px solid #4DD101;
+}
+
+.top-container {
+    width: 100%;
+    height: 116px;
+    background-color: #fefffe;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+
+    font-size: 24px;
+    line-height: 28px;  
+    letter-spacing: 0.335rem;
+}
+
+.LoadingBar{
+    position: relative;
+    min-width: 5px;
+    height: 15px;
+    background: #6fe760;
+    animation-name: colorChange;
+    animation-duration: 2s;
+   transition: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    border-radius: 0px 5px 5px 0px;
+}
+@keyframes colorChange{
+    from{width: 0px; background-color: #37dd4d;}
+    to{width: 75%; background-color: rgb(163, 238, 42);}
+}
+.moblie-nav-bar {
+    display: none;
+}
+
+.mobile-nav-notification {
+    display: none;
+}
+
+#mobile-nav-icon {
+    float: left;
+    color: #4DD101;
+    display: none;
+    font-weight: bold;
+}
+
+.top-container a {
+    color: #000000;
+    position: relative;
+}
+
+.top-container a:hover {
+    color: rgb(8, 8, 8);
+}
+
+.nav-bar-left {
+    float: left;
+}
+
+.nav-bar-right {
+    float: right;
+}
+
+.nav-bar-left li {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.nav-bar-right li {
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    float: left;
+    margin: 19px 55px ;
+}
+.logo img{
+    width: 150px; 
+    height: 100px;
+}
+
+.chart-section{
+    display: flex;
+    flex-direction:row;
+    float: right;
+    margin: 100px;
+    padding: 50px;
+}
+
+/* 
+.img-btn-container {
+    position: relative;
+    margin: 100px 100px;
+}
+
+.img-btn-container img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000000;
+}
+
+.left {
+    display: inline-block;
+    width: 47%;
+    height: auto;
+}
+
+
+.right {
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    width: 47%;
+    height: auto;
+}
+
+.btn-list {
+    width: 389px;
+    position: absolute;
+    left: 38%;
+    bottom: 6%;
+}
+
+.btn-work {
+    margin-top: 30px;
+    width: 389px;
+    height: 132px;
+}
+
+
+.btn {
+    width: 389px;
+    height: 132px;
+    background: #8AF2AD;
+    border: 1px solid #000000;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    font-size: 33px;
+    line-height: 39px;
+    font-weight: bold; 
+}
+
+.btn:hover {
+    background-color: #4DD101;
+    transition: background-color 0.6s;
+}
+
+.btn-land {
+    letter-spacing: 0.205em;
+    margin-top: 0px;
+}
+
+.btn-fertilizer {
+    letter-spacing: 0.35em;
+}
+
+.btn-firewood {
+    letter-spacing: 0.45em;
+}
+
+.btn-request {
+    letter-spacing: 0.45em;
+} */
+
+.bottom-container {
+    width: 100%;
+    height: 150px;
+
+    background-color: #31bb48;
+
+    font-size: 15px;
+    line-height: 15px;  
+    letter-spacing: 0.335rem;
+}
+
+.bottom-container ul {
+    color: white;
+}
+
+.bottom-container li {
+    margin: 30px 0px 0px 10%;
+}
+
+.bottom-container a {
+    color: white;
+}
+
+.bottom-container a:hover {
+    color: rgb(55, 173, 108);
+}
+
+.bottom-container i {
+    margin-left: 75px;
+    font-size: 25px;
+    line-height: 25px;
+}
+/* --------------------- Middle Section ---------------------*/
+.button-header{
+    color: white;
+    margin: 50px 0 0 0;
+    font-size: 25px;
+}
+.middle-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+}
+.landowners{
+    width: 19.7%;
+    height: 273px;
+    display: flex;
+    float: left;
+    color: white;
+    flex-direction: row;
+    background-color: #3a3d3b;
+    border-radius: 10px 10px 0 0;
+    margin: 0 0 0 2px ;
+    /* box-shadow: -10px -10px 5px rgb(143, 163, 148);    */
+    justify-content: center;
+    text-align: center;
+}
+.landowners:hover{
+    background-color:#31bb48;
+    transition-delay: 0.0s;
+    color:white;
+   
+    box-shadow: 0px  -34px  0px  #31bb48;
+}
+i{
+    margin-top: 40px;
+}
+
+.requests{
+    width: 19.8%;
+    height: 273px;
+    display: flex;
+    float: left;
+    color: white;
+    flex-direction: row;
+    background-color: #3a3d3b;
+    border-radius: 10px 10px 0 0;
+    margin: 0 0 0 1px ;
+    /* box-shadow: -10px -10px 5px rgb(143, 163, 148);    */
+    justify-content: center;
+    text-align: center;
+}
+.requests:hover{
+    background-color:#31bb48;
+    transition-delay: 0.05s;
+    color:white;
+    box-shadow: 0px  -34px  0px  #31bb48;
+}
+.payments{
+    width: 20%;
+    height: 273px;
+    display: flex;
+    float: left;
+    color: white;
+    flex-direction: row;
+    background-color: #3a3d3b;
+    border-radius: 10px 10px 0 0;
+    margin: 0 0 0 1px ;
+    /* box-shadow: -10px -10px 5px rgb(143, 163, 148);    */
+    justify-content: center;
+    text-align: center;
+}
+.payments:hover{
+    background-color:#31bb48;
+    color:white;
+    transition-delay: 0.1s;
+    box-shadow: 0px  -34px  0px  #31bb48;
+}
+.tea-price{
+    width: 20%;
+    height: 273px;
+    display: flex;
+    float: left;
+    color: white;
+    flex-direction: row;
+    background-color: #3a3d3b;
+    border-radius: 10px 10px 0 0;
+    margin: 0 0 0 1px ;
+    /* box-shadow: -10px -10px 5px rgb(143, 163, 148);    */
+    justify-content: center;
+    text-align: center;
+} 
+.tea-price:hover{
+    background-color:#31bb48;
+    color:white;
+    box-shadow: 0px  -34px  0px  #31bb48;
+    transition-delay: 0.15s;
+}
+.stock{
+    width: 20%;
+    height: 273px;
+    display: flex;
+    float: left;
+    color: white;
+    flex-direction: row;
+    background-color: #3a3d3b;
+    border-radius: 10px 10px 0 0;
+    margin: 0 0 0 1px ;
+    /* box-shadow: -10px -10px 5px rgb(143, 163, 148);    */
+    justify-content: center;
+    text-align: center;
+}
+.stock:hover{
+    background-color:#31bb48;
+    color:white;
+    box-shadow: 0px  -34px  0px  #31bb48;
+    transition-delay: 0.2s;
+}
+
+
+
+
+
+
