@@ -15,9 +15,9 @@ a {
     text-decoration: none;
 }
 
-div {
+/* div {
     margin: 0px;
-}
+} */
 
 ul {
     list-style: none;
@@ -28,13 +28,11 @@ li {
     display: inline-block;
 }
 
-
-.main-header{
-    color: #80b367;
-    margin: 50px auto;
+h1 {
+    color: #4DD101;
+    margin: 100px auto;
     text-align: center;
     letter-spacing: 0.335em;
-    
 }
 
 hr {
@@ -47,30 +45,14 @@ hr {
 .top-container {
     width: 100%;
     height: 116px;
-    background-color: #fefffe;
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-
+    background-color: #066622;
+    box-shadow: 0px 10px 20px #066622;
+    border-radius: 0 0 10px 10px;
     font-size: 24px;
     line-height: 28px;  
     letter-spacing: 0.335rem;
 }
 
-.LoadingBar{
-    position: relative;
-    min-width: 5px;
-    height: 15px;
-    background: #6fe760;
-    animation-name: colorChange;
-    animation-duration: 2s;
-   transition: ease-in-out;
-    animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
-    border-radius: 0px 5px 5px 0px;
-}
-@keyframes colorChange{
-    from{width: 0px; background-color: #37dd4d;}
-    to{width: 75%; background-color: rgb(163, 238, 42);}
-}
 .moblie-nav-bar {
     display: none;
 }
@@ -87,12 +69,12 @@ hr {
 }
 
 .top-container a {
-    color: #000000;
+    color: #a7ee7e;
     position: relative;
-}
+}   
 
 .top-container a:hover {
-    color: rgb(8, 8, 8);
+    color: white;
 }
 
 .nav-bar-left {
@@ -113,27 +95,25 @@ hr {
     margin-top: 50px;
 }
 
-.logo {
-    width: 40px; 
-    height: 40px;
+.thekolaya {
+    width: 260px; 
+    height: 108px;
     position: absolute;
-    float: left;
-    margin: 19px 55px ;
-}
-.logo img{
-    width: 150px; 
-    height: 100px;
-}
-/*   ******************** Chart/Graph Section ********************** */
-.chart-section{
-    display: flex;
-    flex-direction:row;
-    float: right;
-    margin: 100px;
-    padding: 50px;
+    left: 45%;
+    top: 0px;
 }
 
-/* 
+
+/* ************************ chart-selection section ******************** */
+/* .chart-section{
+    position: relative;
+    margin-top: 200px;
+} */
+.middle-container {
+    position: relative;
+    margin: 100px 0px;
+}
+
 .img-btn-container {
     position: relative;
     margin: 100px 100px;
@@ -160,7 +140,7 @@ hr {
     height: auto;
 }
 
-.btn-list {
+/* .btn-list {
     width: 389px;
     position: absolute;
     left: 38%;
@@ -171,51 +151,36 @@ hr {
     margin-top: 30px;
     width: 389px;
     height: 132px;
-}
+} */
 
 
-.btn {
+/* .btn {
     width: 389px;
     height: 132px;
     background: #8AF2AD;
     border: 1px solid #000000;
     color: white;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(31, 185, 82, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
 
     font-size: 33px;
     line-height: 39px;
     font-weight: bold; 
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
     background-color: #4DD101;
     transition: background-color 0.6s;
-}
-
-.btn-land {
-    letter-spacing: 0.205em;
-    margin-top: 0px;
-}
-
-.btn-fertilizer {
-    letter-spacing: 0.35em;
-}
-
-.btn-firewood {
-    letter-spacing: 0.45em;
-}
-
-.btn-request {
-    letter-spacing: 0.45em;
 } */
+
+
 
 .bottom-container {
     width: 100%;
-    height: 150px;
+    height: 160px;
 
-    background-color: #31bb48;
+    background-color: #367413;
 
     font-size: 15px;
     line-height: 15px;  
@@ -227,7 +192,7 @@ hr {
 }
 
 .bottom-container li {
-    margin: 30px 0px 0px 10%;
+    margin: 80px 0px 0px 10%;
 }
 
 .bottom-container a {
@@ -235,7 +200,7 @@ hr {
 }
 
 .bottom-container a:hover {
-    color: rgb(55, 173, 108);
+    color: black;
 }
 
 .bottom-container i {
@@ -243,6 +208,9 @@ hr {
     font-size: 25px;
     line-height: 25px;
 }
+
+
+
 /* --------------------- Middle Section ---------------------*/
 .button-header{
     color: white;
@@ -360,9 +328,3 @@ i{
     box-shadow: 0px  -34px  0px  #31bb48;
     transition-delay: 0.2s;
 }
-
-
-
-
-
-
